@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 82, 185);
+    font-family: 'Poppins';
+}
+
+.main-container {
+    width: 50%;
+    background-color:ghostwhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px -6px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.words-menu-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;    
+    transition: all .4s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.palavras-container {
+    max-height: 100px;
+    overflow-y: auto;
+    background-color: white;
+    padding: 10px;
+    font-size:larger;
+    text-align:justify;
+    word-spacing:2px;
+}
+
+.palavras-container::-webkit-scrollbar {
+    display: none;
 }
