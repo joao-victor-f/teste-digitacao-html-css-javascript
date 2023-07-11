@@ -12,3 +12,7 @@ const popularContainer = () => {
 }
 
 window.onload = popularContainer;
+
+addEventListener('keydown', () => {
+    document.querySelector('#input-texto').focus();
+})
