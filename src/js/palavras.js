@@ -1,0 +1,20 @@
+const palavras = [
+    "hello", "world", "amazing", "beautiful", "sunshine", "moonlight", "happiness", "friendship", "love", "adventure",
+    "excitement", "delicious", "sparkle", "laughter", "serenity", "joyful", "tranquil", "brave", "success", "inspire",
+    "creativity", "freedom", "hope", "dream", "imagine", "discover", "wonder", "bliss", "harmony", "grateful", "kindness",
+    "compassion", "patience", "courage", "victory", "unity", "trust", "respect", "honesty", "authentic", "thrive", "empower",
+    "abundance", "prosperity", "flourish", "radiant", "brilliant", "vibrant", "jubilant", "enchant", "wisdom", "serene",
+    "glorious", "majestic", "eternal", "immortal", "infinite", "transcend", "whisper", "lullaby", "inspiration", "enlighten",
+    "empathy", "forgiveness", "blessing", "cherish", "radiate", "delight", "triumph", "savor", "celebrate", "captivate",
+    "whimsical", "melody", "adore", "rapture", "exquisite", "immerse", "blissful", "marvel", "resilient", "radiance",
+    "satisfaction", "gratitude", "serenade", "vibrancy", "euphoria", "rejoice", "enamored", "inspire", "elevate", "thrilling",
+    "pleasure", "tenderness", "benevolence", "gracious", "empowerment", "fulfillment", "revitalize", "eclipse", "vivid",
+    "quintessential", "delicate", "inspiring", "resonate", "serendipity", "enrich", "stimulate", "embrace", "mesmerizing",
+    "nurture", "journey", "enchanted", "transcendence", "quench", "delicious", "gorgeous", "reverie", "illuminate", "amaze",
+    "epiphany", "intrigue", "rebirth", "dazzle", "celestial", "pristine", "exhilaration", "captivating", "delightful",
+    "graceful", "calm", "bliss", "charm", "radiant", "enlightenment", "serenity", "harmony", "inspiration", "thrill",
+    "gratitude", "generosity", "rejoice", "admire", "revitalize", "fascinate", "illuminate", "glorious", "triumph",
+    "embrace", "whisper", "pleasure", "reverie", "delicious", "ethereal", "radiate", "mesmerize", "inspire", "enchant",
+    "delight", "blissful", "captivate", "jubilant", "elevate", "celebrate", "cherish", "vivid", "quintessential", "glowing",
+    "satisfaction", "gratitude", "serenade", "vibrancy", "euphoria"
+  ];
