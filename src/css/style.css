@@ -55,14 +55,15 @@ body {
 }
 .palavras-container {
     max-height: 100px;
-    overflow-y: auto;
+    overflow-wrap:break-word;
+    overflow-y: hidden;
     background-color: white;
     padding: 10px;
     font-size:larger;
     text-align:justify;
-    word-spacing:2px;
+    word-spacing: 5px;
 }
 
-.palavras-container::-webkit-scrollbar {
-    display: none;
+.palavras-container span {
+    margin: 0px 2px;
 }
